@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Russo+One&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin:0px;
+    scroll-behavior: smooth;
+}
+p{
+    display:inline-block;
+}
+.nav-bar
+{
+    position:fixed;
+    z-index:100;
+    top: 0px;
+    left:0px;
+    background-color: rgb(25, 24, 24);
+    width: 100%;
+    height:70px;
+    display: flex;
+}
+.nav-img
+{
+    width:50%;
+}
+.nav-img img
+{
+    position:relative;
+    left: 20px;
+    bottom:5px;
+}
+.links
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:50%;
+}
+.links a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 26px;
+    letter-spacing: 2.7px;
+    font-family: teko;
+    padding:7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.links a:hover
+{
+    background-color:#ec0057;
+}
+.links li
+{
+    list-style-type: none;
+}
+
+.container-1
+{
+    width:100%;
+    height:100vh;
+    background-image: url("try-out.png");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+#front-img
+{
+    max-width:700px;
+    height: 500px;
+    /* position: relative;
+    left: 13vw;
+    top: 80px; */
+}
+#Header
+{
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#image
+{
+    width: 70%;
+}
+.sub-head-1
+{
+    color:#ec0057;
+    font-family: teko,sans-serif;
+    font-size: 25px;
+    letter-spacing: 36px;
+    position: relative;
+    bottom: -60px;
+}
+.Heading-1
+{
+    position:relative;
+    left: -15px;
+}
+#divider
+{
+    width:100%;
+    height: 10px;
+    background-color: rgb(66, 14, 14);;
+}
+
+.container-2
+{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(25, 24, 24);
+    /* background-color: #0E0915; */
+    background-image:url(ttten3.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.heading-section-2
+{
+    color:white;
+    margin-top: 4%;
+    font-family: 'chakra petch';
+    font-size: 3.5rem;
+    font-weight:bolder;
+    letter-spacing:0.8rem;
+    background-color:rgb(25,24,24);
+    padding:1rem;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px dashed white;
+    border-width: 0.1rem;
+    /* text-shadow: 0.5px 0.5px 5px rgb(234, 236, 118); */
+}
+.container-3
+{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    background-color:blue;
+    background-image: url(LeaderBoard2.png);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    margin: 0px;
+}
+.container-4
+{
+    width: 100%;
+    height:100vh;
+    background-color:rgb(19, 19, 19);
+    background-image: url(bg4.svg);
+    background-blend-mode: screen;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content
+{
+    width: 80vw;
+    height: 70vh;
+    background-color: rgb(19,19,19);
+    border: 3px solid #ec0057;
+    border-radius:20px;
+    display:flex;
+    align-items: center;
+}
+.join
+{
+    width:50%;
+    height:80%;
+    font-family: 'chakra petch', arial;
+    color:#ffffff;
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap:1em; */
+    align-items: center;
+}
+.pay
+{
+    width:50%;
+    height:80%;
+    border-left: 1px solid white;
+    font-family: 'chakra petch', arial;
+    color:#ffffff;
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap:1em; */
+    align-items: center;
+}
+.join h1,.pay h1
+{
+    font-size: 2.4rem;
+    margin-bottom:0px;
+    margin-top:0;
+    
+}
+.join p{
+    font-size:1rem;
+    letter-spacing: 0.2em;
+    margin-top:0px;
+    color:#ec0057;
+    margin-bottom:4em;
+}
+.join-now{
+    padding:0;
+    height: 3em;
+    width: 80%;
+    font-size: 1.2rem;
+}
+#discord
+{
+    max-width: 10em;
+    margin-bottom:0;
+}
+.pay img{
+    margin-top: 4em;
+    width: 40%;
+}

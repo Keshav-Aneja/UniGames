@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+.card {
+    width:70vw;
+    min-height: 254px;
+    background: #292828;
+    /* background-image: linear-gradient(225deg, #060698 0%, #682a9e 40%, #0663a5 100%); */
+    display: flex;
+    flex-direction: row; 
+    /* place-content: center;
+    place-items: center; */
+    border-radius: 20px;
+    /* opacity:50%; */
+    /* box-shadow: 15px 15px 30px #420303,
+             -15px -15px 30px #610404; */
+    transition: all 0.4s;
+    box-shadow: 1px 1px 10px black;
+  }
+  
+.firstb
+{
+    width: 16.5%;
+    margin: 1%;
+    margin-right:0.5%;
+    padding: 1%;
+    background-image: url('abc.jpg');
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.firsta
+{
+    width: 16.5%;
+    margin: 1%;
+    margin-right:0.5%;
+    padding: 1%;
+    background-image: url('COD.jpg');
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.second
+{
+    width: 58%;
+    margin: 1%;
+    margin-right:0.5%;
+    margin-left:0.5%;
+    /* background-color: rgb(0, 58, 158); */
+    padding:0px;
+    /* opacity: 40%; */
+}
+.third  
+{
+    width: 17.5%;
+    margin: 1%;
+    margin-left: 0.5%;
+    padding: 1%;
+    background-color: #ec0057;
+    border-radius:15px;
+    font-family:'chakra petch';
+    text-align:center;
+}
+.second h1
+{
+    font-family:'chakra petch';
+    font-weight: 900;
+    text-align: center;
+    color:white;
+    margin-top:0px;
+}
+button
+{
+    width: 40%;
+    min-height: 30px;
+    border-radius: 8px;
+    background-color: #ec0057;
+    color:white;
+    font-family: 'chakra petch';
+    font-weight: bolder;
+    letter-spacing: 1px;
+    box-shadow: none;
+    border: 0px;
+}
+.buttons
+{
+    display:flex;
+    justify-content:space-evenly;
+}
+hr
+{
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    width: 80%;
+    background-color:#eeeef3;
+}
+span
+{
+    width: 20%;
+    min-height:40px;
+    background-color: #332c39;
+    border: 1px solid #ff5f9e;
+    text-align: center;
+    padding: 0px;
+}
+  
+span h3
+{
+    color:white;
+    font-family: 'chakra petch';
+    font-weight: 900;
+    margin:5%;
+}
+span p
+{
+    color: #e0568d;
+    font-family: 'chakra petch';
+    font-weight:900;
+    margin: 5%;
+}
+.third h3
+{
+    color: #eeb926;
+    margin-bottom:0.3rem;
+}
+.third h1{
+    margin-top:0;
+    margin-bottom:1rem;
+    color:white;
+    font-size: 450%;
+}
+#join
+{
+    background-color: #eb6c0a;
+    color:white;
+    width: 80%;
+    min-height: 50px;
+    border:0px;
+    border-radius: 50px;
+    font-family:'chakra petch';
+    font-weight: 900;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.card:hover {
+    transform: scale(1.04) rotate(1deg);
+  }
+#join:hover
+{
+    box-shadow: 0.5px 0.5px 10px rgb(237, 189, 43);
+    cursor:pointer;
+}
+  
